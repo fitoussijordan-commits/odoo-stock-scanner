@@ -7,7 +7,7 @@
     "version": "18.0.1.0.0",
     "category": "Inventory/Inventory",
     "author": "Stock Scanner",
-    "website": "https://stock-scanner-tau-six.vercel.app",
+    "website": "https://www.stock-scanner.app",
     "license": "LGPL-3",
     "depends": ["stock"],
     "data": ["views/menu.xml"],
