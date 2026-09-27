@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Ouvre Stock Scanner avec l'adresse de cette instance déjà renseignée. -->
+    <record id="action_open_stock_scanner" model="ir.actions.server">
+        <field name="name">Stock Scanner</field>
+        <field name="model_id" ref="base.model_res_users"/>
+        <field name="state">code</field>
+        <field name="code">
+base = env["ir.config_parameter"].sudo().get_param("web.base.url") or ""
+action = {
+    "type": "ir.actions.act_url",
+    "url": "https://stock-scanner-tau-six.vercel.app/app?odoo=" + base,
+    "target": "new",
+}
+        </field>
+    </record>
+
+    <menuitem id="menu_stock_scanner_root"
+              name="Stock Scanner"
+              action="action_open_stock_scanner"
+              web_icon="stock_scanner_connector,static/description/icon.png"
+              sequence="45"/>
+</odoo>
