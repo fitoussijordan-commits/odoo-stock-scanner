@@ -9,7 +9,7 @@
 base = env["ir.config_parameter"].sudo().get_param("web.base.url") or ""
 action = {
     "type": "ir.actions.act_url",
-    "url": "https://stock-scanner-tau-six.vercel.app/app?odoo=" + base,
+    "url": "https://www.stock-scanner.app/app?odoo=" + base,
     "target": "new",
 }
         </field>
