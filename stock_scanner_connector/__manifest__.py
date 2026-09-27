@@ -4,7 +4,7 @@
                "internal transfers, guided picking, stock adjustments and label printing. "
                "Works with Odoo Community, handheld PDA, Bluetooth scanner or phone camera.",
     "description": "Adds a Stock Scanner app to Odoo that opens the Stock Scanner mobile warehouse tool.",
-    "version": "19.0.1.0.0",
+    "version": "16.0.1.0.0",
     "category": "Inventory/Inventory",
     "author": "Stock Scanner",
     "website": "https://stock-scanner-tau-six.vercel.app",
