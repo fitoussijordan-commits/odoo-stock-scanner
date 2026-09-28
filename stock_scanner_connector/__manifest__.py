@@ -11,7 +11,7 @@
     "license": "LGPL-3",
     "depends": ["stock"],
     "data": ["views/menu.xml"],
-    "images": ["static/description/banner.png"],
+    "images": ["static/description/banner.png", "static/description/scan.png", "static/description/preparation.png"],
     "installable": True,
     "application": True,
     "price": 0,
