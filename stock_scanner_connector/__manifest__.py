@@ -1,5 +1,5 @@
 {
-    "name": "Stock Scanner — Barcode Scanner for Inventory, Picking & Transfers",
+    "name": "Stock Scanner - Barcode Scanner for Inventory, Picking & Transfers",
     "summary": "Mobile barcode scanner for Odoo inventory: scan products, lots and locations, "
                "internal transfers, guided picking, stock adjustments and label printing. "
                "Works with Odoo Community, handheld PDA, Bluetooth scanner or phone camera.",
